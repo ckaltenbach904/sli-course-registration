@@ -1,3 +1,8 @@
+This is similar to project or repository: https://github.com/ckaltenbach904/my_web_project. Only this time, you would use containerize technology such as Docker. And the app this time will be written in node.js with npm and SQLite.
+
+This is the link to the web app which was deploy to netlify just to handle the front end and no backend involved due to security (https://servant-leader-institute-website.netlify.app/)
+
+
 If you want to use Docker to containerize and deploy your Node.js application with the latest versions of Node.js, NPM, and SQLite, here's a step-by-step guide. This approach will ensure consistency across environments and eliminate compatibility issues by using Docker to manage dependencies.
 
 Prerequisites
