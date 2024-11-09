@@ -11,19 +11,10 @@ bash
 Copy code
 mkdir sli-course-registration
 cd sli-course-registration
-Your project structure should look like this:
+Your project structure should look like this initially
 
-java
-Copy code
-sli-course-registration/
-├── public/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── app.js
-├── Dockerfile
-├── .dockerignore
-└── package.json
+![image](https://github.com/user-attachments/assets/bafa88dc-0668-4f36-8118-ca415c285f50)
+
 2. Create the Dockerfile
 The Dockerfile specifies how to build your Docker container. Create a new file called Dockerfile in your project directory:
 
