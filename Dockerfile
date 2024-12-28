@@ -1,5 +1,5 @@
 # Use the latest Node.js 20 image from Docker Hub as the base image
-FROM node:20
+FROM node:20.18.1-bookworm-slim
 
 # Install SQLite3 (using apt-get if the base image is Debian/Ubuntu-based)
 RUN apt-get update && apt-get install -y sqlite3
