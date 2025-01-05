@@ -68,3 +68,12 @@ function initMap() {
     map: map,
   });
 }
+// HIDE API KEY
+fetch("/map-data")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data); // Handle the map data in your frontend
+  })
+  .catch((error) => {
+    console.error("Error fetching map data:", error);
+  });
